@@ -6,7 +6,7 @@ function wait(ms){return new Promise(r=>setTimeout(r,ms));}
 
 // ==== ステージデータ ====
 const StageData = {
-  1:{name:"スラッピー", img:"Slime.png", bg:"grassland.png", hp:30, atk:7, def:3, recommendLv:1},
+  1:{name:"スラッピー", img:"Slime.PNG", bg:"grassland.png", hp:30, atk:7, def:3, recommendLv:1},
   2:{name:"バットラー", img:"bat.png", bg:"forest.png", hp:40, atk:10, def:5, recommendLv:5},
   3:{name:"ゴブゾー", img:"Goblins.png", bg:"Abandoned-village.png", hp:60, atk:12, def:6, recommendLv:8},
   4:{name:"ゴースティ", img:"ghost.png", bg:"church.png", hp:75, atk:14, def:8, recommendLv:12},
@@ -315,3 +315,4 @@ btnRetryPrev.addEventListener("click",()=>{
 window.addEventListener("DOMContentLoaded", async ()=>{
   initBattle(currentStage);
 });
+
